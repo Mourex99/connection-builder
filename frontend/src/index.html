@@ -2,11 +2,16 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>E-commerce</title>
+  <title>Catálogo de Artes</title>
+  <style>
+    #catalog img { width: 100px; margin: 10px; }
+  </style>
 </head>
 <body>
-  <h1>Loja Virtual</h1>
-  <ul id="product-list"></ul>
-  <script src="app.js"></script>
+  <h1>Catálogo de Artes para Caneca</h1>
+  <div id="catalog">
+    <a href="viewer.html?art=red"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGP4z8AAAAMBAQDJ/pLvAAAAAElFTkSuQmCC" alt="Arte Vermelha"></a>
+    <a href="viewer.html?art=blue"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGNgYPgPAAEDAQAIicLsAAAAAElFTkSuQmCC" alt="Arte Azul"></a>
+  </div>
 </body>
 </html>
