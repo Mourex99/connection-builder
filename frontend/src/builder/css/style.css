@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #20324A;
+  color: #E3C572;
+}
+header {
+  text-align: center;
+  margin-top: 24px;
+}
+.logo {
+  width: 90px;
+  border-radius: 100%;
+  margin-bottom: 12px;
+  background: #fff2;
+}
+h1, h2 {
+  color: #E3C572;
+}
+.catalogo {
+  margin: 24px auto;
+  max-width: 800px;
+}
+.artes {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 16px;
+}
+.artes button {
+  background: #233b5e;
+  border: 2px solid #E3C572;
+  border-radius: 12px;
+  padding: 10px 16px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.artes button:hover {
+  background: #E3C572;
+  color: #20324A;
+}
+.artes img {
+  width: 120px;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 8px;
+}
+.caneca-3d {
+  text-align: center;
+  margin: 40px auto 32px;
+}
+#viewer {
+  width: 480px;
+  height: 400px;
+  margin: 0 auto 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px #0005;
+}
+#whatsappBtn {
+  background: #E3C572;
+  color: #20324A;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+#whatsappBtn:hover {
+  background: #ffd700;
+}
+footer {
+  text-align: center;
+  margin-top: 32px;
+  color: #E3C57299;
+}
+@media (max-width: 600px) {
+  #viewer { width: 98vw; height: 60vw; min-height: 240px;}
+  .artes img { width: 90px; }
+}
