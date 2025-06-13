@@ -17,6 +17,6 @@ Este repositório contém uma estrutura simples para iniciar um projeto de e-com
 ## Estrutura
 
 - `backend/` - Servidor Express simples que disponibiliza produtos em `/products` e serve o frontend estático.
-- `frontend/` - Contém arquivos estáticos HTML e JavaScript para consumir o backend.
+- `frontend/` - Contém arquivos estáticos HTML e JavaScript para consumir o backend. A pasta `src/builder` inclui uma página de personalização de canecas 3D.
 
 Este é apenas um ponto de partida e pode ser expandido conforme as necessidades do projeto.
